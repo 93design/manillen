@@ -1,0 +1,63 @@
+ html {
+      height: 100%;
+      font-size: :0.625em;
+      font-color: #212121;
+      }
+
+      body {
+      height: 100%;
+      font-size: 1.4em;
+      max-width: 92em;
+      }
+
+/*      form  { display: table;      }
+      p     { display: table-row;  }
+      label { display: table-cell; }
+      input { display: table-cell; }*/
+
+      .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+      }    
+
+
+#tabel {
+	padding: 2em;
+	width: 60%;
+	margin: 0 auto;
+	background: #238C23;
+}
+
+.player {
+	border: 1em solid black;
+	text-align: left;
+	min-width: 30%;
+	margin: 3em auto;
+	height: 5em;
+}
+
+#W1,#W2 {	
+	margin: 1em auto;
+	border: 1em solid black;
+	max-height: 100%;
+	padding: 1em;
+}
+
+#Z1,#Z2 {
+	margin: 1em auto;
+	border: 1em solid red;
+	max-height: 100%;
+	padding: 1em;
+}
+#cardObj {
+	margin: 1%;
+	background-color: white;
+	border: 0.1em solid black;
+	width: 10%;
+	height: 100%;
+}
+
+#deck {
+	width: 100%;
+}
