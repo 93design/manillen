@@ -9,10 +9,11 @@ function Boomstats(){
 	this.totalPoint = parseInt(localStorage.getItem('totalPoint'), 10) || 0;
 }
 
-Boomstats.prototype.increaseBoom = function() { 
+Boomstats.prototype.increaseBoom() { 
 	this.numBoom++;
 }
 
 
-boom = new Boomstats();
-console.log(boom);
+Boomstats.prototype.increaseBoom() { 
+	this.numBoom++;
+}

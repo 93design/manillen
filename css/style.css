@@ -41,17 +41,17 @@
 	margin: 1em auto;
 	border: 1em solid black;
 	max-height: 100%;
-	padding: 1em;
+	padding: 1em 0em;
 }
 
 #Z1,#Z2 {
 	margin: 1em auto;
 	border: 1em solid red;
 	max-height: 100%;
-	padding: 1em;
+	padding: 1em 0em;
 }
-#cardObj {
-	margin: 1%;
+.cardObj {
+	margin: 0.5%;
 	background-color: white;
 	border: 0.1em solid black;
 	width: 10%;
